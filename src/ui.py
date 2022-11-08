@@ -52,9 +52,9 @@ class App(QWidget):
         self.setGeometry(0, -100, 1600, 1000)
         main_font = "Arial"
         self.setStyleSheet(f"""
-            QPushButton{{font: bold 14pt "{main_font}";}}
-            QLabel{{font: bold 18pt "{main_font}"; color: white;}}
-            QLineEdit{{font: 14pt "{main_font}";}}
+            QPushButton{{font: bold 20px "{main_font}";}}
+            QLabel{{font: bold 30px "{main_font}"; color: white;}}
+            QLineEdit{{font: 20px "{main_font}";}}
         """)
 
         # Create widget
