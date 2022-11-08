@@ -6,7 +6,7 @@ from src.ui import App
 if __name__ == '__main__':
     app = QApplication([])
     window = QMainWindow()
-    window.setGeometry(0, 1000, 2000, 1000)
+    window.setGeometry(50, 50, 1600, 900)
     window.show()
     ex = App(window)
     app.exec()

@@ -49,12 +49,12 @@ class App(QWidget):
 
     def initUI(self):
         self.setWindowTitle('Slumbot UI')
-        self.setGeometry(0, 0, 3000, 3000)
+        self.setGeometry(0, -100, 1600, 1000)
         main_font = "Arial"
         self.setStyleSheet(f"""
-            QPushButton{{font: bold 20pt "{main_font}";}}
-            QLabel{{font: bold 30pt "{main_font}"; color: white;}}
-            QLineEdit{{font: 20pt "{main_font}";}}
+            QPushButton{{font: bold 14pt "{main_font}";}}
+            QLabel{{font: bold 18pt "{main_font}"; color: white;}}
+            QLineEdit{{font: 14pt "{main_font}";}}
         """)
 
         # Create widget
